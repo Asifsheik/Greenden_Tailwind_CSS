@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <!-- Google Fonts --> 
+     <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-cream font-sans text-gray-800">
+    <!-- responsive nav bar -->
+    <nav class="bg-green-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl md:text-3xl font-serif text-gray-900">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex ">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="product_page.html">Product</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- products display section -->
+    <section>
+        <div class="text-center">
+            <h1 class="text-3xl font-bold flex justify-center m-5">Our Products</h1>
+            <!-- search section -->
+            <div>
+                <input type="text" class="border border-black p-2 m-3 w-50% mb-5">
+                <button class="bg-black text-white p-2 m-1 underline rounded-2xl"><a href="#home">Search</a></button>
+            </div>
+            <!-- image section -->
+            <div class="grid grid-cols-2 m-1 gap-5 md:grid-cols-4">
+
+                <div class="bg-transparent">
+                    <img src="./images/living.jpg" alt="Living Room"
+                        class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <p class="font-semibold">Living Room</p>
+                </div>
+
+                <div>
+                    <img src="./images/Modular Kitchen Design.jpg" alt="Modular Kitchen Design"
+                        class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <p class="font-semibold">Modular Kitchen</p>
+                </div>
+
+                <div>
+                    <img src="./images/bedroom.jpg" alt="Bedroom interior Design"
+                        class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <p class="font-semibold">Bedroom interior</p>
+                </div>
+
+                <div>
+                    <img src="./images/Wardrobe Design.jpg" alt="Wardrobe Design"
+                        class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <p class="font-semibold">Wardrobe Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-green-200 p-10 mt-5">
+        <div>
+            <h2 class="text-3xl md:text-4xl font-serif text-gray-900 font-stretch-semi-condensed">Greenden</h2>
+            <p class="m-2">
+                Bring your dream home to life with expert help from Greenden.
+            </p>
+            <p>
+                © 2026 Greenden. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
