@@ -1,6 +1,8 @@
-# 🌿 GreenDen – Interior Design Website :https://asifsheik.github.io/Greenden_Tailwind_CSS/
+# 🌿 GreenDen – Interior Design Website 
 
 GreenDen is a responsive interior design website built using HTML and Tailwind CSS. This project is part of my frontend development learning journey, where I practiced using Tailwind CSS to create a clean, modern, and visually appealing website.
+
+# https://asifsheik.github.io/Greenden_Tailwind_CSS/
 
 ## 🛠️ Technologies Used
 
